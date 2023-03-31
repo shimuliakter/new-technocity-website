@@ -4,3 +4,27 @@
     box-sizing: border-box;
 }
 
+/* all colors */
+:root{
+
+}
+
+a{
+    text-decoration: none;
+}
+
+/* custom scrollbar */
+
+::-webkit-scrollbar{
+    width: .375rem;
+}
+::-webkit-scrollbar-track{
+    background: grey;
+}
+::-webkit-scrollbar-thumb{
+    background: lightcoral;
+}
+
+section{
+    padding: 3.125rem 0;
+}
