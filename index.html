@@ -1,36 +1,207 @@
 <!DOCTYPE html>
 <htm dir="ltr" lang="en">
 
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Techno City</title>
 
-    <!-- bootstrap css CDN link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- FAVICON -->
 
+    <!-- bootstrap 5 css CDN link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+
+    <!-- font-awesome icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <!-- custom css file's -->
     <link type="text/css" rel="stylesheet" href="css/style.css">
     <link type="text/css" rel="stylesheet" href="css/responsive-style.css">
-</head>
+  </head>
 
-<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
-    <!-- Banner and Icon section starts -->
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
 
-    <!-- Banner and Icon section ends -->
+    <!-- Navbar section -->
+    <!-- <header class="header_wrapper">
 
-    <!-- bootstrap js CDN link -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
+    </header> -->
+    <!-- Navbar section exit -->
+
+    <!-- Banner and Icon section -->
+    <section class="banner_wrapper">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-12 col-lg-8">
+
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/banner/slide-img1.jpg" class="d-block w-100" alt="First Slide">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/banner/slide-img2.jpg" class="d-block w-100" alt="Second Slidie">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/banner/slide-img3.jpg" class="d-block w-100" alt="Third Slide">
+                </div>
+              </div>
+
+              <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button> -->
+
+            </div>
+
+          </div>
+
+          <div class="col-sm-12 col-lg-4">
+
+            <div class="icon_wrapper d-flex justify-content-evenly mt-2 mt-lg-0">
+
+              <div class="item-icon text-center">
+                <a href="#">
+                  <img src="images/icon/processor.png" alt="Processor">
+                  <p>Processor</p>
+                </a>
+              </div>
+
+              <div class="item-icon text-center">
+                <a href="#">
+                  <img src="images/icon/monitor.png" alt="Monitor">
+                  <p>Monitor</p>
+                </a>
+              </div>
+
+              <div class="item-icon text-center">
+                <a href="#">
+                  <img src="images/icon/motherboard.png" alt="Motherboard">
+                  <p>Motherboard</p>
+                </a>
+              </div>
+
+            </div>
+
+            <div class="icon_wrapper d-flex justify-content-evenly mt-2">
+
+              <div class="item-icon text-center">
+                <a href="#">
+                  <img src="images/icon/vga-card.png" alt="Graphics Card">
+                  <p>Graphics Card</p>
+                </a>
+              </div>
+
+              <div class="item-icon text-center">
+                <a href="#">
+                  <img src="images/icon/ram.png" alt="RAM">
+                  <p>RAM</p>
+                </a>
+              </div>
+
+              <div class="item-icon text-center">
+                <a href="#">
+                  <img src="images/icon/solid-state-drive.png" alt="SSD">
+                  <p>SSD</p>
+                </a>
+              </div>
+
+            </div>
+
+            <div class="icon_wrapper d-flex justify-content-evenly mt-2">
+
+              <div class="item-icon text-center">
+                <a href="#">
+                  <img src="images/icon/pc.png" alt="Casing">
+                  <p>Casing</p>
+                </a>
+              </div>
+
+              <div class="item-icon text-center">
+                <a href="#">
+                  <img src="images/icon/tv.png" alt="TV">
+                  <p>TV</p>
+                </a>
+              </div>
+
+              <div class="item-icon text-center">
+                <a href="#">
+                  <img src="images/icon/mouse.png" alt="Accessories">
+                  <p>Accessories</p>
+                </a>
+              </div>
+
+            </div>
+
+            <div class="icon_wrapper d-flex justify-content-evenly mt-2">
+
+              <div class="item-icon text-center">
+                <a href="#">
+                  <img src="images/icon/gaming-chair.png" alt="Gaming Chair">
+                  <p>Gaming Chair</p>
+                </a>
+              </div>
+
+              <div class="item-icon text-center">
+                <a href="#">
+                  <img src="images/icon/wifi-router.png" alt="Router">
+                  <p>Router</p>
+                </a>
+              </div>
+
+              <div class="item-icon text-center">
+                <a href="#">
+                  <img src="images/icon/ups.png" alt="UPS">
+                  <p>UPS</p>
+                </a>
+              </div>
+
+            </div>
+
+
+          </div>
+
+        </div>
+
+        <!-- Ads title -->
+        <div class="row">
+          <div class="col-lg-12 mt-2">
+            
+            <div class="subtitle">
+              <marquee behavior="" direction="left">শত ভাগ অরিজিনাল প্রোডাক্ট এর নিশ্চয়তা দিয়ে আমরা আছি আপনার অপেক্ষায়, পিসি বিল্ড করলে নিশ্চিত উপহার । বাংলাদেশের যেকোনো প্রান্ত থেকে আমাদের প্রোডাক্ট পেতে অনলাইনে অর্ডার করুন , ধন্যবাদ
+              </marquee>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </section>
+
+    <!-- Banner and Icon section exit -->
+
+    <!-- bootstrap 5 js CDN link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"></script>
+
 
     <!-- custom js link -->
     <script type="text/javascript" src="js/main.js"></script>
 
 
-</body>
+  </body>
 
-</html>
+  </html>

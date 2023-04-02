@@ -1,6 +1,102 @@
+/* General */
+
+/* google fonts links */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+/* font-family: 'Poppins', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+/* font-family: 'Source Sans Pro', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+/* font-family: 'Oswald', sans-serif; */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* all colors */
+:root{
+    /* background Color */
+
+    /* --primary-color: #021832; */
+    --primary-color: #f2f4f8;
+    --secondary-color: #caa169;
+    --bg-color: #f4f4f4;
+    --bg-white: #fff;
+    --bg-black: #000;
+
+    /* Text Style */
+    /* --primary-font: 'Poppins', sans-serif; */
+    --primary-font: 'Source Sans Pro', sans-serif; 
+    --secondary-font: 'Oswald', sans-serif;
+    --primary-text: #021832;
+    --secondary-text: #caa169;
+    --text-white: #fff;
+    --text-black: #151515;
+    --text-grey: #e4e4e4;
+
+}
+
+body{
+    background: var(--primary-color);
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 16px;
+    color: #333333;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    /* overflow-x: hidden; */
+}
+
+a{
+    text-decoration: none;
+}
+
+/* custom scrollbar */
+
+::-webkit-scrollbar{
+    width: .375rem;
+}
+::-webkit-scrollbar-track{
+    background: grey;
+}
+::-webkit-scrollbar-thumb{
+    background: lightcoral;
+}
+
+section{
+    padding: 3.125rem 0;
+}
+
+/* .main-btn{
+    font-size: 1rem; 1rem = 16px
+} */
+
+/* General exit */
+
+/* Banner and Icon section */
+.banner_wrapper{
+    background: #eeeff0;
+    height: 38.2rem;
+}
+.icon_wrapper .item-icon{
+    background: var(--bg-white);
+    width: 7.9rem;
+    height: 7.5rem;
+    border-radius: 0.5rem;
+    padding-top: 1.2rem;
+    margin-left: .5rem;
+}
+
+.subtitle{
+    font-size: .9rem;
+    background: var(--bg-white);
+    padding: .4rem .6rem;
+    border-radius: 50rem;
+    /* font-weight: 500; */
+    color: rgba(0, 0, 0, 1);
+}
+/* Banner and Icon section exit */
