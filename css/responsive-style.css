@@ -12,9 +12,17 @@
         padding: 1.875rem 0;
     }
 
+    .icon_wrapper .item-icon{
+        width: 12rem;
+    }
+
     
 }
 
 @media (max-width: 767px){
 
+    .icon_wrapper .item-icon{
+        width: 12rem;
+        height: 7.5rem;
+    }
 }
