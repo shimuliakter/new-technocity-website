@@ -80,7 +80,7 @@ section{
 /* Banner and Icon section */
 .banner_wrapper{
     background: #eeeff0;
-    height: 38.2rem;
+    /* height: 38.2rem; */
 }
 .icon_wrapper .item-icon{
     background: var(--bg-white);
@@ -100,3 +100,22 @@ section{
     color: rgba(0, 0, 0, 1);
 }
 /* Banner and Icon section exit */
+
+/* Product section */
+.main-title .p-title{
+    background: rgba(219, 232, 242, 1);
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    padding: .6rem;
+    border-radius: .3rem;
+    border-width: 0;
+    /* border-bottom-width: .1rem; */
+    border-bottom-width: .2rem;
+    border-style: solid;
+    border-color: rgba(221, 221, 242, 1);
+}
+.main-title .p-title a{
+    color: rgba(0, 0, 0, 1);
+}
+/* Product section exit */
