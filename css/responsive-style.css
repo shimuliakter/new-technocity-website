@@ -1,0 +1,20 @@
+@media (max-width: 1199px){
+    .icon_wrapper .item-icon{
+        margin-left: 1.2rem;
+        height: 8rem;
+    }
+}
+
+@media (max-width: 991px){
+    
+    /* custom css */
+    section{
+        padding: 1.875rem 0;
+    }
+
+    
+}
+
+@media (max-width: 767px){
+
+}
